@@ -5,7 +5,7 @@
 
   <ItemGroup Condition=" $(MonoTargetFrameworkIdentifier) == '' ">
     <Reference Include="ohXen.dll">
-      <HintPath>$(MSBuildThisFileDirectory)..\..\ohXen\net40\ohXen.net.dll</HintPath>
+      <HintPath>$(MSBuildThisFileDirectory)..\..\ohXen\net40\ohXen.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
