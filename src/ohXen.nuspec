@@ -12,14 +12,15 @@
     <copyright>Copyright 2015</copyright>
   </metadata>
   <files>
-    <file src="dependencies/Windows-x86/ohXen/ohXen.dll" target="ohXen/net40" />
-    <file src="dependencies/Linux-x86/ohXen/ohXen.dll" target="ohXen/mono" />
-    <file src="dependencies/Mac-x86/ohXen/ohXen.dll" target="ohXen/MonoMac" />
     <file src="src/targets/net40/ohXen.targets" target="build/net40" />
     <file src="src/targets/Mono/ohXen.targets" target="build/Mono10" />
     <file src="src/targets/MonoMac/ohXen.targets" target="build/MonoMac10" />
     
-    <file src="dependencies/Mac-x86/ohXen/ohXen.dll" target="lib/Xamarin.Mac" />
+    <file src="dependencies/Windows-x86/ohXen/ohXen.dll" target="ohXen/net40" />
+    <file src="dependencies/Linux-x86/ohXen/ohXen.dll" target="ohXen/mono" />
+    <file src="dependencies/Mac-x86/ohXen/ohXen.dll" target="ohXen/MonoMac" />
+    <file src="dependencies/Mac-x86/ohXen/ohXen.dll" target="lib/MonoMac10" />
+    <file src="dependencies/Mac-x86/ohXen/ohXen.dll" target="lib/Xamarin.Mac10" />
     <file src="dependencies/Android-anycpu/ohXen/ohXen.dll" target="lib/MonoAndroid10" />
     <file src="dependencies/iOs-x86/ohXen/ohXen.dll" target="lib/MonoTouch10" />
     <file src="dependencies/iOs-x86/ohXen/ohXen.dll" target="lib/Xamarin.iOS10" />
