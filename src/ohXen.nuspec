@@ -25,6 +25,6 @@
     <file src="dependencies/iOs-x86/ohXen/ohXen.dll" target="lib/MonoTouch10" />
     <file src="dependencies/iOs-x86/ohXen/ohXen.dll" target="lib/Xamarin.iOS10" />
     
-    <file src="dependencies/Windows-x86/ohXen/ohXen.dll" target="lib/portable-net45+win+wpa81+wp80" />
+    <file src="dependencies/AnyPlatform/ohXen/ohXen.dll" target="lib/portable-net45+win+wpa81+wp80" />
   </files>
 </package>
