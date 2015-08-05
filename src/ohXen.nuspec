@@ -11,6 +11,9 @@
     <releaseNotes>First nuget release</releaseNotes>
     <copyright>Copyright 2015</copyright>
   </metadata>
+  <dependencies>
+    <dependency id="PCLStorage" version="1.0.2" />
+  </dependencies>
   <files>
     <file src="src/targets/net40/ohXen.targets" target="build/net40" />
     <file src="src/targets/Mono/ohXen.targets" target="build/Mono10" />
