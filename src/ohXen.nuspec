@@ -11,7 +11,6 @@
     <releaseNotes>First nuget release</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <dependencies>
-      <dependency id="PCLStorage" version="1.0.2" />
     </dependencies>
   </metadata>
   <files>
