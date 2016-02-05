@@ -8,7 +8,7 @@
     <owners>OpenHome</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Cross platform environment helpers</description>
-    <copyright>Copyright 2016</copyright>
+    <copyright>Copyright 2012-2016</copyright>
     <dependencies>
     </dependencies>
   </metadata>
@@ -19,6 +19,11 @@
     <!-- Implementation DLLs that the above targets file point to. -->
     <file src="dependencies/Windows-x86/ohXen/ohXen.dll" target="ohXen/net40" />
     <file src="dependencies/Linux-x86/ohXen/ohXen.dll" target="ohXen/mono" />
+
+    <!-- Add an empty file to the net40 folder so that NuGet selects this (empty)
+         directory instead of the portable directory.  This will avoid duplicate
+         references in net40 compatible projects. -->
+    <file src="src/_._" target="lib/net40" />
 
     <!-- Implementation DLLs for all other platforms. -->
     <file src="dependencies/Mac-x86/ohXen/ohXen.dll" target="lib/MonoMac10" />

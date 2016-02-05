@@ -4,12 +4,12 @@
        is neccessary due to there being no specific target framework moniker for
        mono on linux. -->
   <ItemGroup Condition=" $(MonoTargetFrameworkIdentifier) == 'Mono' ">
-    <Reference Include="ohXen.dll">
+    <Reference Include="ohXen">
       <HintPath>$(MSBuildThisFileDirectory)..\..\ohXen\mono\ohXen.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup Condition=" $(MonoTargetFrameworkIdentifier) == '' ">
-    <Reference Include="ohXen.dll">
+    <Reference Include="ohXen">
       <HintPath>$(MSBuildThisFileDirectory)..\..\ohXen\net40\ohXen.dll</HintPath>
     </Reference>
   </ItemGroup>
