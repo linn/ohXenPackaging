@@ -23,7 +23,7 @@
     <!-- Add an empty file to the net40 folder so that NuGet selects this (empty)
          directory instead of the portable directory.  This will avoid duplicate
          references in net40 compatible projects. -->
-    <file src="src/_._" target="lib/net40" />
+    <file src="src\_._" target="lib\net40" />
 
     <!-- Implementation DLLs for all other platforms. -->
     <file src="dependencies/Mac-x86/ohXen/ohXen.dll" target="lib/MonoMac10" />
