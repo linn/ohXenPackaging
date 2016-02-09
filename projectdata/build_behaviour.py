@@ -30,4 +30,4 @@ class Builder(OpenHomeBuilder):
         self.pack_nuget('src/ohXen.nuspec', '.')
 
     def publish(self):
-        self.publish_nuget(os.path.join('build', 'packages', '*.nupkg'), self.nuget_api_key, self.nuget_server)
+        self.publish_package_curl(os.path.join('build', 'packages', '*.nupkg'), self.nuget_server)
