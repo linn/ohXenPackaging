@@ -19,7 +19,6 @@ class Builder(OpenHomeBuilder):
 
     def setup(self):
         self.nuget_server = self.env.get('NUGET_SERVER')
-        self.nuget_api_key = self.env.get('NUGET_API_KEY')
 
     def clean(self):
         if os.path.isdir(self.output_dir):
