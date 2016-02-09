@@ -1,49 +1,49 @@
 [
     {
       "name": "ohXen-Windows-x86",
-      "version": "0.0.211",
+      "version": "0.0.225",
       "archive-path":"http://builds.openhome.org/releases/artifacts/ohXen/ohXen-${version}-Windows-x86-${titlecase-debugmode}.tar.gz",
       "dest": "dependencies/Windows-x86/ohXen",
       "strip-archive-dirs":1
     },
     {
       "name": "ohXen-WinRT-anycpu",
-      "version": "0.0.211",
+      "version": "0.0.225",
       "archive-path":"http://builds.openhome.org/releases/artifacts/ohXen/ohXen-${version}-WinRT-anycpu-${titlecase-debugmode}.tar.gz",
       "dest": "dependencies/WinRT-anycpu/ohXen",
       "strip-archive-dirs":1
     },
     {
       "name": "ohXen-Linux-x86",
-      "version": "0.0.211",
+      "version": "0.0.225",
       "archive-path":"http://builds.openhome.org/releases/artifacts/ohXen/ohXen-${version}-Linux-x86-${titlecase-debugmode}.tar.gz",
       "dest": "dependencies/Linux-x86/ohXen",
       "strip-archive-dirs":1
     },
     {
       "name": "ohXen-Android-anycpu",
-      "version": "0.0.211",
+      "version": "0.0.225",
       "archive-path":"http://builds.openhome.org/releases/artifacts/ohXen/ohXen-${version}-Android-anycpu-${titlecase-debugmode}.tar.gz",
       "dest": "dependencies/Android-anycpu/ohXen",
       "strip-archive-dirs":1
     },
     {
       "name": "ohXen-Mac-x86",
-      "version": "0.0.211",
+      "version": "0.0.225",
       "archive-path":"http://builds.openhome.org/releases/artifacts/ohXen/ohXen-${version}-Mac-x86-${titlecase-debugmode}.tar.gz",
       "dest": "dependencies/Mac-x86/ohXen",
       "strip-archive-dirs":1
     },
     {
       "name": "ohXen-iOs-x86",
-      "version": "0.0.211",
+      "version": "0.0.225",
       "archive-path":"http://builds.openhome.org/releases/artifacts/ohXen/ohXen-${version}-iOs-x86-${titlecase-debugmode}.tar.gz",
       "dest": "dependencies/iOs-x86/ohXen",
       "strip-archive-dirs":1
     },
     {
       "name": "ohXen-AnyPlatform",
-      "version": "0.0.211",
+      "version": "0.0.225",
       "archive-path":"http://builds.openhome.org/releases/artifacts/ohXen/ohXen-${version}-AnyPlatform-${titlecase-debugmode}.tar.gz",
       "dest": "dependencies/AnyPlatform/ohXen",
       "strip-archive-dirs":1
